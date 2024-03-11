@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 -- Check styling, formatting, and Typescript code before committing -- 👷🏗️'
+
+# npm run check-typescript
+npx lint-staged
+
+# If everything passes... Now we can commit
+echo '✅✅✅✅ You win this time... Committing changes now. ✅✅✅✅'
