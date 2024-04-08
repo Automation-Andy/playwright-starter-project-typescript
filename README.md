@@ -1,4 +1,4 @@
-# PLAYWRIGHT STARTER PROJECT
+# Playwright Typescript Starter Project
 
 ## Install Node and VS Code (unless already installed)
 1. Make sure you have the latest version of [Node](https://nodejs.org/en/download) installed.
@@ -7,10 +7,15 @@
 
 ## Create a Folder For Your Starter Project
 * Using a Command Prompt `WindowsKey+R` and `cmd`
-* Create a folder to clone this repo into `mkdir playwright-starter`
-* Go into that folder `cd playwright-starter`
+* Create a folder to clone this repo into - eg; `mkdir playwright`
+* Go into that folder `cd playwright`
+
+## Clone The Repository
+* Run `git clone http:github.com/automation-andy/playwright-starter-project-typescript`
 * Open folder in VS Code `code .`
 
-## Clone this repo
+## Install The Project Dependencies
 * In VS Code, open a terminal `Ctrl+Shift+'`
-* In the terminal, clone the repository `git clone http:github.com/automation-andy/playwright-starter-project-typescript`
+* Run `npm i`
+* Run `npm init playwright@latest` and accept the defaults to the prompts and install the browers when asked.
+
