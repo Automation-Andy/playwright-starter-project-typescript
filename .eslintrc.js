@@ -1,6 +1,6 @@
 module.exports = {
     "env": {
-        "browser": true,
+        "node": true,
         "es2021": true
     },
     "extends": [
@@ -13,9 +13,7 @@ module.exports = {
             "env": {
                 "node": true
             },
-            "files": [
-                ".eslintrc.{js,cjs}"
-            ],
+            files: ['*.ts', '*.tsx'],
             "parserOptions": {
                 "sourceType": "script"
             }
@@ -27,7 +25,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "prettier", "@typescript-eslint"
     ],
     "rules": {
         // playwright/recommended default rule set https://www.npmjs.com/package/eslint-plugin-playwright
