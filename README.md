@@ -1,5 +1,7 @@
 # Playwright Typescript Starter Project
 
+Starter project for Playwright using TypeScript.  Includes eslint, prettier, and husky pre-commit hooks for staged files.
+
 ## Install Node and VS Code (unless already installed)
 1. Make sure you have the latest version of [Node](https://nodejs.org/en/download) installed.
 2. Download and install [VS Code](https://code.visualstudio.com/download).
