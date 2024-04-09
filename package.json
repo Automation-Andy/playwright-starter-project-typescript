@@ -1,7 +1,14 @@
 {
-  "name": "playwright-playground",
+  "name": "playwright-starter-project-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter project for Playwright using TypeScript.  Includes eslint, prettier, and husky pre-commit hooks for staged files.",
+  "keywords": [],
+  "author": "Andy Gleed aka Automation Andy - andy@automationandy.net",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Automation-Andy/playwright-starter-project-typescript"
+  },
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
@@ -18,9 +25,6 @@
       "npm run pretty-quick"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.43.0",
     "@types/node": "^20.11.24",
