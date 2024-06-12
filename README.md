@@ -8,7 +8,8 @@ Starter project for Playwright using TypeScript.  Includes eslint, prettier, and
 3. [Clone The Repository](#clone-the-repository)
 4. [Install The Project Dependencies](#install-the-project-dependencies)
 5. [Pre-Commit Hook](#pre-commit-hook)
-6. [Lint Staged Configuration](#lint-staged-configuration)
+6. [ESLint](#eslint)
+7. [Lint Staged Configuration](#lint-staged-configuration)
 
 
 ## Install Node and VS Code
