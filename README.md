@@ -58,7 +58,7 @@ Reasons to use ESLint:
 
 If you are unfamiliar with ESLint, follow the steps below for a simple demonstration.
 1. Open [.eslintrc.js](.eslintrc.js) and at the bottom you will see the `playwright/expect-expect` set to `error`, which is a default configuration.
-2. Open [example.spec.ts](tests\example.spec.ts) and comment out line 17 `// await expect`...
+2. Open [example.spec.ts](.\tests\example.spec.ts) and comment out line 17 `// await expect`...
 
 The entire test will now have an error denoted by red lines.  Hover over the red lines and you will see '**Test has no assertions eslintplaywright/expect-expect**'
 
