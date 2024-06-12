@@ -4,9 +4,9 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
+        "eslint:recommended", // https://eslint.org/docs/latest/rules/
         "plugin:@typescript-eslint/recommended",
-        "plugin:playwright/recommended"
+        "plugin:playwright/recommended" // https://www.npmjs.com/package/eslint-plugin-playwright
     ],
     "overrides": [
         {
@@ -28,6 +28,10 @@ module.exports = {
         "prettier", "@typescript-eslint"
     ],
     "rules": {
-        // playwright/recommended default rule set https://www.npmjs.com/package/eslint-plugin-playwright
+        // you can customize rules in this section.  See https://www.npmjs.com/package/eslint-plugin-playwright
+        // for rule configuration details.
+        "playwright/expect-expect": [
+            "error",
+        ]
     }
 }
