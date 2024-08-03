@@ -29,7 +29,24 @@ Starter project for Playwright using TypeScript.  Includes eslint, prettier, and
 ## Install The Project Dependencies
 * In VS Code, open a terminal `Ctrl+Shift+'`
 * Run `npm i`
-* Run `npm init playwright@latest` and accept the defaults to the prompts and install the browsers when asked.
+* Optionally, install the latest playwright version - Run `npm init playwright@latest` and accept the defaults to the prompts and install the browsers when asked.
+
+## Run the example test [example.spec.ts](tests\example.spec.ts)
+Run `npx playwright test`
+
+You should get the following output:
+```
+Running 4 tests using 2 workers
+
+  ✓  1 [setup] › global.setup.ts:3:6 › execute setup script (8ms)                                                                      
+execute setup script...
+  ✓  2 [chromium] › example.spec.ts:10:5 › get started link (5.9s)
+  ✓  3 [chromium] › example.spec.ts:3:5 › has title (5.9s)
+  ✓  4 [teardown] › global.teardown.ts:3:9 › execute teardown script (8ms)
+execute teardown script...
+
+  4 passed (8.3s)
+```
 
 ### Pre-Commit Hook
 Reasons to use pre-commit hooks:
